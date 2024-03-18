@@ -1,0 +1,43 @@
+img {
+    width: 50%;
+}
+
+#wholeBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#playto, 
+#p1Button,
+#p2Button,
+#reset {
+    width: 50%;
+}
+
+#playto {
+    margin-bottom: 10px;
+}
+
+#p1Button {
+    background-color: rgb(69, 218, 102);
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#p2Button {
+    background-color: rgb(100, 195, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#reset {
+    background-color: rgb(255, 43, 43 );
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
